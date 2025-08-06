@@ -35,7 +35,7 @@ Here's a README.md file for your VirusTotal File Scanner project. This file prov
 README.md
 Markdown
 
-VirusTotal-File-Scanner/
+```VirusTotal-File-Scanner/
 ├── public/                        # Static assets (HTML, CSS, JS, images)
 │   ├── index.html                 # Home upload page
 │   ├── results.html               # Results display page
@@ -50,6 +50,7 @@ VirusTotal-File-Scanner/
 ├── package-lock.json              # Dependency lock file
 ├── server.js                      # Main Express server app
 └── README.md                      # Documentation and usage instructions
+```
 
 
 ## ⚙️ Setup Instructions
