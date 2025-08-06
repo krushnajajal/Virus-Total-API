@@ -35,19 +35,22 @@ Here's a README.md file for your VirusTotal File Scanner project. This file prov
 README.md
 Markdown
 
-## 📁 Project Structure
+VirusTotal-File-Scanner/
+├── public/                        # Static assets (HTML, CSS, JS, images)
+│   ├── index.html                 # Home upload page
+│   ├── results.html               # Results display page
+│   ├── status.html                # Optional loading page
+│   └── styles.css                 # Custom styling
+│
+├── uploads/                       # Temp uploaded files (should be in .gitignore)
+│
+├── .env                           # Environment variables (e.g., VirusTotal API key)
+├── .gitignore                     # Ignored files/folders for Git
+├── package.json                   # Node.js project metadata and dependencies
+├── package-lock.json              # Dependency lock file
+├── server.js                      # Main Express server app
+└── README.md                      # Documentation and usage instructions
 
-.
-├── server.js           # Main Node.js server application
-├── .env                # Environment variables (e.g., VirusTotal API Key)
-├── .gitignore          # Specifies intentionally untracked files to ignore
-├── package.json        # Project metadata and dependencies
-├── public/             # Contains all client-side assets (HTML, CSS, JS)
-│   ├── index.html      # Home page with file upload form
-│   ├── results.html    # Page to display scan results
-│   ├── status.html     # Loading/status page during scanning
-│   └── styles.css      # Custom CSS for UI styling and animations
-└── uploads/            # Temporary directory for uploaded files (ignored by Git)
 
 ## ⚙️ Setup Instructions
 
