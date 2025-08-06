@@ -30,72 +30,24 @@ A simple web application built with Node.js and Express that allows users to upl
 
 ## 📁 Project Structure
 
-.
-├── server.js
-├── .env
-├── .gitignore
-├── package.json
-├── public/
-│   ├── index.html
-│   ├── results.html
-│   ├── status.html
-│   └── styles.css
-└── uploads/
+Here's a README.md file for your VirusTotal File Scanner project. This file provides essential information for anyone looking to understand, set up, and run your application.
 
-Here is an updated `README.md` file. I've corrected the "Project Structure" section to ensure it renders correctly as a visual tree structure, which will make it much clearer to anyone viewing your repository on GitHub.
-
-I've enclosed the file tree within a Markdown code block, which preserves the formatting and ensures it displays as intended. I've also removed the duplicate "Project Structure" heading.
-
-### `README.md`
-
-```markdown
-# 🛡️ VirusTotal File Scanner
-
-A simple web application built with Node.js and Express that allows users to upload files and scan them using the VirusTotal API. It provides a clean and animated user interface to display the scan results.
-
-## ✨ Features
-
-* **File Upload**: Easily upload any file through a user-friendly web interface.
-* **VirusTotal Integration**: Leverages the VirusTotal API to perform comprehensive malware analysis.
-* **Real-time Scanning Status**: Displays a loading animation while the file is being scanned by VirusTotal.
-* **Detailed Scan Results**: Shows a breakdown of scan statistics (harmless, malicious, suspicious, undetected).
-* **Clean UI**: Modern and responsive design with subtle animations for a better user experience.
-
-## 🚀 Technologies Used
-
-* **Backend**:
-    * [Node.js](https://nodejs.org/): JavaScript runtime environment.
-    * [Express.js](https://expressjs.com/): Fast, unopinionated, minimalist web framework for Node.js.
-    * [Multer](https://github.com/expressjs/multer): Node.js middleware for handling `multipart/form-data`, primarily used for uploading files.
-    * [Axios](https://axios-http.com/): Promise-based HTTP client for the browser and Node.js.
-    * [Dotenv](https://github.com/motdotla/dotenv): Loads environment variables from a `.env` file.
-    * [Form-Data](https://github.com/form-data/form-data): A library for creating `multipart/form-data` streams.
-* **Frontend**:
-    * HTML5
-    * CSS3 (with custom animations)
-    * JavaScript
-    * [Font Awesome](https://fontawesome.com/): For icons.
-    * [Google Fonts (Poppins)](https://fonts.google.com/specimen/Poppins): For typography.
-* **External API**:
-    * [VirusTotal API v3](https://docs.virustotal.com/reference/overview): For file analysis.
+README.md
+Markdown
 
 ## 📁 Project Structure
 
-```
-
 .
-├── server.js
-├── .env
-├── .gitignore
-├── package.json
-├── public/
-│   ├── index.html
-│   ├── results.html
-│   ├── status.html
-│   └── styles.css
-└── uploads/
-
-````
+├── server.js           # Main Node.js server application
+├── .env                # Environment variables (e.g., VirusTotal API Key)
+├── .gitignore          # Specifies intentionally untracked files to ignore
+├── package.json        # Project metadata and dependencies
+├── public/             # Contains all client-side assets (HTML, CSS, JS)
+│   ├── index.html      # Home page with file upload form
+│   ├── results.html    # Page to display scan results
+│   ├── status.html     # Loading/status page during scanning
+│   └── styles.css      # Custom CSS for UI styling and animations
+└── uploads/            # Temporary directory for uploaded files (ignored by Git)
 
 ## ⚙️ Setup Instructions
 
@@ -156,4 +108,3 @@ Follow these steps to get the project up and running on your local machine.
 3.  **View Status**: You will be redirected to a "Scanning in progress..." page with a loading animation. The server is actively polling the VirusTotal API for your scan results during this time.
 4.  **View Results**: Once the scan is complete (which can take a few seconds to a minute, depending on file size and VirusTotal's queue), you will be automatically redirected to the results page, displaying the scan statistics for your uploaded file.
 5.  **Scan Another File**: Click the "Scan another file" link to return to the home page and upload a new file.
-````
