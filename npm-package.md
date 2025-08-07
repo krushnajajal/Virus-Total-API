@@ -1,7 +1,7 @@
 
 # 🛡️ TotalVirus Scanner
-[![NPM Version](https://img.shields.io/npm/v/your-package-name.svg)](https://www.npmjs.com/package/your-package-name)
-[![Downloads](https://img.shields.io/npm/dt/your-package-name.svg)](https://www.npmjs.com/package/your-package-name)
+[![NPM Version](https://img.shields.io/npm/v/your-package-name.svg)](https://www.npmjs.com/package/totalvirus-api)
+[![Downloads](https://img.shields.io/npm/dt/your-package-name.svg)](https://www.npmjs.com/package/totalvirus-api)
 
 A lightweight, modern, and powerful Node.js wrapper for the [VirusTotal API](https://www.virustotal.com/).  
 Scan files, scan URLs, and fetch real-time malware analysis — with a single line of code.
