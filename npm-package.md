@@ -1,7 +1,6 @@
 
 # 🛡️ TotalVirus Scanner
 [![NPM Version](https://img.shields.io/npm/v/totalvirus-api.svg)](https://www.npmjs.com/package/totalvirus-api)
-[![Downloads](https://img.shields.io/npm/dt/totalvirus-api.svg)](https://www.npmjs.com/package/totalvirus-api)
 [![License: MIT](https://img.shields.io/npm/l/totalvirus-api.svg)](https://github.com/your-username/totalvirus-api/blob/main/LICENSE)
 
 
