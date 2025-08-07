@@ -2,6 +2,8 @@
 # 🛡️ TotalVirus Scanner
 [![NPM Version](https://img.shields.io/npm/v/totalvirus-api.svg)](https://www.npmjs.com/package/totalvirus-api)
 [![License: MIT](https://img.shields.io/npm/l/totalvirus-api.svg)](https://github.com/your-username/totalvirus-api/blob/main/LICENSE)
+![npm downloads]((https://www.npmjs.com/package/totalvirus-api))
+
 
 
 A lightweight, modern, and powerful Node.js wrapper for the [VirusTotal API](https://www.virustotal.com/).  
